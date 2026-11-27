@@ -14,3 +14,6 @@ Throwaway fixture for the vuln-fix lane. Not a real project — do not build on 
 
 Expected targeted fix: `go get golang.org/x/net@v0.62.0 && go mod tidy`, leaving
 `github.com/google/uuid` at v1.0.0 and committing no root binary.
+
+Base moved 2026-11-27 so the lane opens a fresh post-fix PR on this same fixture;
+PR #1 stays untouched as the pre-fix "before" control.
